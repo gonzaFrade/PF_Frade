@@ -57,12 +57,12 @@
   }
 
   aside{
+    padding: 0;
     .slide{
         img{
             display: flex;
             height: 110vh;
             object-fit: cover;
-            
         }
     }
   }
@@ -294,15 +294,19 @@
         font-weight: 600;
         text-decoration-line:underline;
     }
-  }
-  @media((max-width:952px)) {
-    .Contenedor-Sabores{
-      grid-template-columns: repeat(3,1fr);
+   }
+   @media(max-width:952px) {
+    .Contenedor-Gustos{
+        .Contenedor-Sabores{
+            grid-template-columns: repeat(3,1fr);
+        }
     }
   }
-  @media(max-width:852px){
-    .Contenedor-Sabores{
-      grid-template-columns: repeat(2,1fr);
+  @media(max-width:852px) {
+    .Contenedor-Gustos{
+        .Contenedor-Sabores{
+            grid-template-columns: repeat(2,1fr);
+        }
     }
   }
 

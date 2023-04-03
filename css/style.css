@@ -45,10 +45,12 @@ nav {
           background: gray;
           transition: 0.5s; }
 
-aside .slide img {
-  display: flex;
-  height: 110vh;
-  object-fit: cover; }
+aside {
+  padding: 0; }
+  aside .slide img {
+    display: flex;
+    height: 110vh;
+    object-fit: cover; }
 
 footer {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -215,12 +217,12 @@ footer {
   font-weight: 600;
   text-decoration-line: underline; }
 
-@media ((max-width: 952px)) {
-  .Contenedor-Sabores {
+@media (max-width: 952px) {
+  .Contenedor-Gustos .Contenedor-Sabores {
     grid-template-columns: repeat(3, 1fr); } }
 
 @media (max-width: 852px) {
-  .Contenedor-Sabores {
+  .Contenedor-Gustos .Contenedor-Sabores {
     grid-template-columns: repeat(2, 1fr); } }
 
 /* CONTACTO */
