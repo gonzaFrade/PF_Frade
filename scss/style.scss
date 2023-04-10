@@ -36,6 +36,7 @@
         float: right;
         margin-right: 20px;
         z-index:1;
+        display: block;
         li{
             display:inline-block;
             line-height: 140px;
@@ -150,6 +151,23 @@
                 height: 25%;
                 width: 100%;
                 object-fit: cover;
+            }
+        }
+    }
+  }
+
+  @media(max-height:700px)
+  {
+    nav{
+        .enlace{
+            padding-left: 20px;
+            padding: 10px;
+        }
+        ul{
+            li{
+                a{
+                    font-size: 12px;
+                }
             }
         }
     }
