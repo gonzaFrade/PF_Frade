@@ -156,24 +156,8 @@
     }
   }
 
-  @media(max-height:700px)
-  {
-    nav{
-        .enlace{
-            padding-left: 20px;
-            padding: 10px;
-        }
-        ul{
-            li{
-                a{
-                    font-size: 12px;
-                }
-            }
-        }
-    }
-  }
 
-  @media(max-width:852px){
+  @media(max-width:852px) and (max-height:780px){
     nav{
         .checkbtn{
             display: block;
@@ -185,16 +169,16 @@
             width: 100%;
             height: 100vh;
             background: white;
-            top: 140px;
+            // top: 140px;
             left: -100%;
             text-align: center;
             transition:all 0.5s;
             li{
                 display: block;
-                margin: 50px 0;
+                margin: 30px 0;
                 line-height: 30px;
                 a{
-                    font-size: 20px;
+                    font-size: 15px;
                     color: black;
                     &:hover,&:active{
                         color: black;
@@ -227,6 +211,8 @@
         }
     }
   }
+
+
 
   /* NOSOTROS */
 
